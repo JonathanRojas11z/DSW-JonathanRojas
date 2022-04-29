@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>
+            Hojas de estilo en cascada CSS y Framework CSS
+
+        </title>
+    </head>
+
+    <body>
+       <div class="jumbotron p-5 bg-success text-white text-center">
+        <h1>Hojas de estilo y Framework CSS</h1>
+       </div>
+
+       <nav class="navbar navbar-inverse">
+           <div class="container-fluid">
+               <div class="navbar-header">
+                   <a href="#" class="navbar-brand">Inicio</a>
+               </div>
+               <ul class="nav navbar-nav">
+                   <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Temas
+                           <span class="caret"></span>
+                       </a>
+                       <ul class="dropdown-menu">
+                           <li><a href="#">Hojas de estilo</a></li>
+                           <li> <a href="#">Frameworks Css</a></li>
+                       </ul>
+                   </li>
+
+                   <li class="dropdwon">
+                       <a class="dropdown-toogle" data-toggle="dropdown" href="#">Recursos digitales
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Recurso 1</a></li>
+                            <li> <a href="#">Recurso 2</a></li>
+                        </ul>
+                   </li>
+
+                   <li class="dropdwon">
+                        <a class="dropdown-toogle" data-toggle="dropdown" href="#">Recursos digitales 
+                            <span class="caret"></span>
+                         </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Recurso 1</a></li>
+                            <li> <a href="#">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Acerca de</a></li>
+
+               </ul>
+
+           </div>
+       </nav>
+
+       <div class="container-fluid text-center" >
+           <div class="col-sm-12 text-center" style="display: flex; align-items: center;">
+                <section>
+                     <h1>Propósito del sitio</h1>
+               
+                     <h4> El propósito de este sitio es definir, mostrar las características y usos de las hojas de estilo. 
+                         También se pretende ejemplificar y aclarar diferentes frameworks que pueden utilizarse para la implementación de diferentes sitios web proporcionando así,
+                          diferentes alternativas a los lectores para el aprendizaje y codificación de CSS.</h4>
+                </section>
+           </div> 
+           <br>
+
+
+
+      
+
+
+          <div  class="container-fluid"  id="acordion">
+              <div class="card container-fluid">
+                  <div class="card-header">
+                      <h1><a class="card-link text-center" data-toggle="collapse" href="#collapseHojasEstilo">
+                          Hojas de estilo CSS
+                      </a></h1>
+                      <div id="collapseHojasEstilo" class="collapse-show" data-parent="acordion">
+                          <div class="collapse-body text-center">
+                            <article>
+                                Son aquellos archivos que se encargan de definir la apariencia de una pagina web", para ello se deben incorporar a html mediante el uso de etiquetas nativas, 
+                                su finalidad principalmente es definir un orden o una estructuración del contenido y el aspecto de la pagina html. Las hojas de estilos poseen una característica muy importante, la cual es que se puede aplicar a varios documentos html, 
+                                lo que genera que con un mínimo cambio en su codificación, pueda generar una actualización, en las diferentes paginas web que se está implementando.
+            
+                                Las hojas de estilo se pueden estructurar de dos partes principalmente: el selector, el cual indica a que elemento de la página web se le aplicará los estilos, 
+                                y la segunda parte son la Lista de declaraciones, la cual define que reglas o estilos se van a aplicar a los componentes de la página web.
+            
+            
+                             </article>
+
+                             <br>
+
+                             <div class="container fluid">
+                                <div class="text-center">
+                                    <img src="cssImage.PNG " class="img-fluid rounded-circle">
+                                </div>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+
+
+
+              <div class="card container-fluid">
+                <div class="card-header">
+                    <h1><a class="card-link text-center" data-toggle="collapse" href="#collapseFrameworks">
+                        Frameworks CSS
+                    </a></h1>
+                    <div id="collapseFrameworks" class="collapse-show" data-parent="acordion">
+                        <div class="collapse-body text-center">
+                            
+                             <article>
+                                    Son herramientas que permiten personalizar las hojas de estilo de modo que si se van a reutilizar reglas para diferentes componentes 
+                                    de una página web, estos queden asociados de manera adecuada. Este tipo de herramientas también va a permitir incluir otro tipo de factores, como condiciones,
+                                     funciones y manejo de parámetros, los mas conocidos o frecuentes son Saas, LEES, y Stylus.
+
+                             </article>
+                             <br>
+                             <div class="text-center">
+                                 <img src="Framework1.PNG" class="img-fluid rounded-circle" height="400" width="400">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <br>
+        <div class="container-fluid">
+            <div class="text-center">
+                <img src="Mockup.png" class="rounded" width="" height="">
+            </div>
+
+            <div class="text-center">
+                <footer>
+                    <p>Autor: Jonathan Rojas F</p>
+                    <p><a href="mailto:jrojasfe@unadvirtual.edu.co">jrojasfe@unadvirtual.edu.co</a></p>
+                    <p><a href="mailto:jonathanrojas11z@hotmail.com">Skype: Jonathan Rojas</a></p>
+                  </footer>
+            </div>
+        </div>
+    </div>
+ </div>
+    </body>
+</html>
