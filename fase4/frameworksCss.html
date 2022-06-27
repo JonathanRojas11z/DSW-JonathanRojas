@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>
+            Hojas de estilo en cascada CSS y Framework CSS
+
+        </title>
+    </head>
+
+    <body>
+       <div class="jumbotron p-5 bg-success text-white text-center">
+        <h1>Hojas de estilo y Framework CSS</h1>
+       </div>
+
+       <nav class="navbar navbar-inverse">
+           <div class="container-fluid">
+               <div class="navbar-header">
+                   <a href="index.html" class="navbar-brand">Inicio</a>
+               </div>
+               <ul class="nav navbar-nav">
+                   <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Temas
+                           <span class="caret"></span>
+                       </a>
+                       <ul class="dropdown-menu">
+                           <li><a href="hojasEstilo.html">Hojas de estilo</a></li>
+                           <li> <a href="frameworksCss.html">Frameworks Css</a></li>
+                       </ul>
+                   </li>
+
+                   <li class="dropdwon">
+                       <a class="dropdown-toogle" data-toggle="dropdown" href="#">Recursos digitales
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Recurso 1</a></li>
+                            <li> <a href="#">Recurso 2</a></li>
+                        </ul>
+                   </li>
+
+                   <li class="dropdwon">
+                        <a class="dropdown-toogle" data-toggle="dropdown" href="#">Aprendizaje
+                            <span class="caret"></span>
+                         </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fase4/CssActivities.html">Actividad CSS</a></li>
+                            <li> <a href="fase4/frameworkActivities.html">Acticidad frameworks Css</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">Acerca de</a></li>
+
+               </ul>
+
+           </div>
+       </nav>
+
+       <style>
+           .box{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+
+           }
+       </style>
+
+            <div class="card container-fluid">
+                <div class="card-header">
+                    <h1><a class="card-link text-center" data-toggle="collapse" href="#collapseFrameworks">
+                        Frameworks CSS
+                    </a></h1>
+                    <div id="collapseFrameworks" class="collapse-show" data-parent="acordion">
+                        <div class="collapse-body text-center">
+                            <div class="boxes">
+                                                            
+                            <article>
+                                Son herramientas que permiten personalizar las hojas de estilo de modo que si se van a reutilizar reglas para diferentes componentes 
+                                de una página web, estos queden asociados de manera adecuada. Este tipo de herramientas también va a permitir incluir otro tipo de factores, como condiciones,
+                                 funciones y manejo de parámetros, los mas conocidos o frecuentes son Saas, LEES, y Stylus.
+
+                            </article>
+                            <br>
+                            <div class="text-center">
+                                 <img src="Framework1.PNG" class="img-fluid rounded-circle" height="400" width="400">
+                            </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <br>
+        <div class="container-fluid">
+
+            <div class="text-center">
+                <footer>
+                    <p>Autor: Jonathan Rojas F</p>
+                    <p><a href="mailto:jrojasfe@unadvirtual.edu.co">jrojasfe@unadvirtual.edu.co</a></p>
+                    <p><a href="mailto:jonathanrojas11z@hotmail.com">Skype: Jonathan Rojas</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>

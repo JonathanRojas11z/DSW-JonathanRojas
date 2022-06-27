@@ -20,7 +20,7 @@
        <nav class="navbar navbar-inverse">
            <div class="container-fluid">
                <div class="navbar-header">
-                   <a href="#" class="navbar-brand">Inicio</a>
+                   <a href="index.html" class="navbar-brand">Inicio</a>
                </div>
                <ul class="nav navbar-nav">
                    <li class="dropdown">
@@ -48,8 +48,8 @@
                             <span class="caret"></span>
                          </a>
                         <ul class="dropdown-menu">
-                            <li><a href="CssActivities.html">Actividad CSS</a></li>
-                            <li> <a href="frameworkActivities.html">Acticidad frameworks Css</a></li>
+                            <li><a href="fase4/CssActivities.html">Actividad CSS</a></li>
+                            <li> <a href="fase4/frameworkActivities.html">Acticidad frameworks Css</a></li>
                         </ul>
                     </li>
                     <li><a href="about.html">Acerca de</a></li>
@@ -57,23 +57,12 @@
                </ul>
 
            </div>
-       </nav>
+       </nav>    
 
-       <div class="container-fluid text-center" >
-           <div class="col-sm-12 text-center" style="display: flex; align-items: center;">
-                <section>
-                     <h1>Propósito del sitio</h1>
-               
-                     <h4> El propósito de este sitio es definir, mostrar las características y usos de las hojas de estilo. 
-                         También se pretende ejemplificar y aclarar diferentes frameworks que pueden utilizarse para la implementación de diferentes sitios web proporcionando así,
-                          diferentes alternativas a los lectores para el aprendizaje y codificación de CSS.</h4>
-                </section>
-           </div> 
-           <br>
           <div  class="container-fluid"  id="acordion">
               <div class="card container-fluid">
                   <div class="card-header">
-                      <h1><a class="card-link text-center" data-toggle="collapse" href="#collapseHojasEstilo">
+                      <h1><a class="card-link text-center" style="align-items:center" data-toggle="collapse" href="#collapseHojasEstilo">
                           Hojas de estilo CSS
                       </a></h1>
                       <div id="collapseHojasEstilo" class="collapse-show" data-parent="acordion">
@@ -85,46 +74,52 @@
             
                                 Las hojas de estilo se pueden estructurar de dos partes principalmente: el selector, el cual indica a que elemento de la página web se le aplicará los estilos, 
                                 y la segunda parte son la Lista de declaraciones, la cual define que reglas o estilos se van a aplicar a los componentes de la página web.
-            
-            
+                                <br>
+
+                                Existen dos formas diferentes de hacer uso de las hojas de estilo, uno es a travez de las etiquetas style o haceindo uso de un archivo externo cuya extensión será .css.
+                                <br>
+                                <h3 class="text-center">Propiedades</h3>
+
+                                <style>
+                                    .groupData{
+                                        display: flex;
+                                        flex-direction: row;
+                                         
+                                    }
+                                </style>
+
+                                <div class="groupData">
+                                    <div class="categories">
+                                        Las hojas de estilo las componen varios tipos de propiedades  dentro de las que podemos destacar alginas como:
+                                        <ol>
+                                            <li>Propiedades tipográficas</li>
+                                            <li>Propiedades de fondo</li>
+                                            <li>Porpiedades de bloques de texto</li>
+                                            <li>Propiedades de contenedores</li>
+                                            <li>Prpiedades complementarias</li>
+                                        </ol>
+    
+                                    </div>
+    
+                                    <div class="bxImage">
+                                        <img src="cssFile.PNG" width="400" height="400">
+    
+                                        <img src="etiquetaStyle.PNG" width="400" height="400">
+                                    </div>
+                                </div>         
                              </article>
 
                              <br>
-
-                             <div class="container fluid">
-                                <div class="text-center">
-                                    <img src="cssImage.PNG " class="img-fluid rounded-circle">
-                                </div>
-                          </div>
-
                       </div>
                   </div>
               </div>
 
-              <div class="card container-fluid">
-                <div class="card-header">
-                    <h1><a class="card-link text-center" data-toggle="collapse" href="#collapseFrameworks">
-                        Frameworks CSS
-                    </a></h1>
-                    <div id="collapseFrameworks" class="collapse-show" data-parent="acordion">
-                        <div class="collapse-body text-center">
-                            
-                             <article>
-                                    Son herramientas que permiten personalizar las hojas de estilo de modo que si se van a reutilizar reglas para diferentes componentes 
-                                    de una página web, estos queden asociados de manera adecuada. Este tipo de herramientas también va a permitir incluir otro tipo de factores, como condiciones,
-                                     funciones y manejo de parámetros, los mas conocidos o frecuentes son Saas, LEES, y Stylus.
-
-                             </article>
-                             <br>
-                             <div class="text-center">
-                                 <img src="Framework1.PNG" class="img-fluid rounded-circle" height="400" width="400">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
          <br>
+        <div class="container-fluid">
+            <div class="text-center">
+                <img src="Mockup.png" class="rounded" width="" height="">
+            </div>
 
             <div class="text-center">
                 <footer>
